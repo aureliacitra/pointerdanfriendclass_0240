@@ -5,11 +5,19 @@ class mahasiswa
 {
     public:
     int nim;
-    void showtim()
+    void shownim()
     {
         cout << "No induk = " << nim << endl; 
     }
 };
 
 int main()
-{}
+{
+    mahasiswa mhs; 
+    mhs.nim = 2024;
+    mhs.shownim();
+
+    mahasiswa &refmhs = mhs;
+    refmhs.nim = 2;
+    mhs.shownim();
+}
