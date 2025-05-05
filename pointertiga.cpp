@@ -7,4 +7,8 @@ class orang
 {
  private:
  string nama;
+
+ public:
+ void setnama(string pnama);
+ friend class siswa;
 }
