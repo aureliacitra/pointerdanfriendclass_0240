@@ -9,5 +9,7 @@ int main()
     int *c = &a;
     cout << "Alamat memori : " << c << endl;
     cout << "Nilai dari c : " << *c << endl;
-   
+    c = &y;
+    cout << "Alamat memori : " << c << endl;
+    cout << "Nilai dari c : " << *c << endl;
 }
