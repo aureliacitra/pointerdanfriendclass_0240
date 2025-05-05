@@ -22,3 +22,8 @@ class siswa
     void setid(int pid);
     void displayAll(orang $a);
 };
+
+void orang::setnama(string pnama)
+{
+    nama = pnama;
+}
