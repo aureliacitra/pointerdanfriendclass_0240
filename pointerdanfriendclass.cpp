@@ -12,4 +12,9 @@ int main()
     c = &y;
     cout << "Alamat memori : " << c << endl;
     cout << "Nilai dari c : " << *c << endl;
+
+int &d = b;
+cout << "Nilai " << d << endl;
+cout << "References " << &d << endl;
+
 }
