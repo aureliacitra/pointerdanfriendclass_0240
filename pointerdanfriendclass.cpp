@@ -17,4 +17,6 @@ int &d = b;
 cout << "Nilai " << d << endl;
 cout << "References " << &d << endl;
 
+int f = 5;
+int g = f;
 }
